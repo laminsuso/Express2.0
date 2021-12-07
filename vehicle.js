@@ -4,9 +4,9 @@ const {sequelize,DataTypes, Model} = require('./db');
 class Vehicle extends Model {}
 
 Vehicle.init({
-  Name: DataTypes.STRING,  
-  Make: DataTypes.STRING,
-  Modle: DataTypes.STRING,
+  name: DataTypes.STRING,  
+  make: DataTypes.STRING,
+  model: DataTypes.STRING,
 }, {
   sequelize,
   timestamps: false
